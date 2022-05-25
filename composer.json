@@ -1,0 +1,41 @@
+{
+    "name": "main/main",
+    "type": "project",
+    "description": "The main sources and resources needed for the development and deployment of PHP applications",
+    "homepage": "https://packagist.com/packages/main/main",
+    "license": "Apache-2.0",
+    "keywords": [
+      "resources"
+      "sources",
+      "modules",
+      "bundle",
+      "library",
+	  	"package",
+	  	"repository-template"
+    ],
+  	"authors": [{
+		"name": "SIGUI Kessé Emmanuel",
+		"homepage": "https://dev.sikessem.com",
+		"email": "contact@sikessem.com",
+		"role": "Developer"
+  	}],
+    "autoload": {
+	  	"psr-4": {
+			"Main\\": "src/"
+		  }
+    },
+    "support": {
+        "source": "https://github.com/main-php/main",
+        "issues": "https://github.com/main-php/main/issues"
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "config": {
+        "vendor-dir": "php_packages",
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
