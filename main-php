@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+
+$main = require_once __DIR__ . '/pkg/src/init.php';
+
+print_r($main);

@@ -1,0 +1,26 @@
+{
+  "name": "main-php",
+  "version": "0.0.0",
+  "description": "The main sources and resources needed for the development and deployment of PHP applications",
+  "main": "main.js",
+  "homepage": "https://npmjs.org/package/main.php",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/main-php/main.git"
+  },
+  "keywords": [
+    "resources",
+    "sources",
+    "modules",
+    "bundle",
+    "library",
+    "package",
+    "repository-template",
+    "php"
+  ],
+  "author": "SIGUI Kessé Emmanuel <contact@sikessem.com>",
+  "bugs": {
+    "url": "https://github.com/main-php/main/issues"
+  }
+}

@@ -1,6 +1,5 @@
 {
 	"name": "main/main",
-	"type": "project",
 	"description": "The main sources and resources needed for the development and deployment of PHP applications",
 	"homepage": "https://packagist.com/packages/main/main",
 	"license": "Apache-2.0",
@@ -11,7 +10,8 @@
 		"bundle",
 		"library",
 		"package",
-		"repository-template"
+		"repository-template",
+	  	"php"
 	],
 	"authors": [{
 		"name": "SIGUI Kessé Emmanuel",
@@ -21,7 +21,8 @@
 	}],
 	"autoload": {
 		"psr-4": {
-			"Main\\": "src/"
+			"Main\\": "pkg/src/",
+		  	"App\\": "app/src/"
 		}
 	},
 	"support": {
